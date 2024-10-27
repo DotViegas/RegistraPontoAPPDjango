@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.titulo__h1__dashboard{
+    font-family: "Montserrat", sans-serif;
+    font-size: 32.16px; /* 67% de 48px */
+}
+
+.titulo__h2__dashboard{
+    font-family: "Montserrat", sans-serif;
+    font-size: 21.44px; /* 67% de 32px */
+}
+
+.name_system {
+    font-family: "Montserrat", sans-serif;
+    font-size: 21.44px; /* 67% de 32px */
+    background: linear-gradient(90deg, #E32928 0%, #621F7A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu__saudacoes{
+    width: 70vw;
+    height: 12vh;
+    margin: 25px 0 15px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.menu__dashboard{
+    width: 65vw;
+    height: 410px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    margin: 0 0 0 80px;
+    justify-content: space-between;
+}
+
+.ancora__dashoboard{
+    width: 200px;
+    height: 200px;
+    background-color: #D9D9D9;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1920px) and (min-height: 768px) and (max-height: 1080px) {
+    .listagem{
+        width: 13vw; /* 67% de 350px */
+    }
+
+    menu{
+        width: 87vw;
+        height: 6vh;
+    }
+
+    .corpo__html.ativo{
+        width: 87vw;
+    }
+
+    .ancora__dashoboard{
+        width: 250px;
+        height: 250px;
+        background-color: #D9D9D9;
+    }
+
+    .menu__sessao{
+        width: 80vw;
+        height: 4vh;
+    }
+
+    .menu__saudacoes{
+        margin: 25px 0 45px 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
